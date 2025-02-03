@@ -15,7 +15,7 @@ SoftwareSerial nano3( 10,11 );
 SoftwareSerial nano4( 12, 13);
 SoftwareSerial nano5( 5,4 );
 SoftwareSerial nano6( 3,2 );
-SoftwareSerial* nanos[6] = { &nano2, &nano3, &nano1,  &nano4, &nano5, &nano6 };
+SoftwareSerial* nanos[6] = {  &nano1, &nano2, &nano3, &nano4, &nano5, &nano6 };
 
 void visualOutput()
 {
